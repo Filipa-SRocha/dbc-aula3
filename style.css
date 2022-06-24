@@ -35,7 +35,7 @@ header nav li {
 	margin-left: 20px;
 }
 
-header nav li:hover {
+header nav li a:hover {
 	text-decoration: underline;
 }
 
