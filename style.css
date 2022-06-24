@@ -35,11 +35,10 @@ header nav li:hover {
 
 /* -------- Videos Page ------- */
 .flex-container {
-	max-width: 1200px;
-	margin: auto;
 	padding: 80px 0;
 	display: flex;
-	justify-content: space-between;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 .video-card-container {
