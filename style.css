@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 /* CSS Reset */
 
 * {
 	margin: 0;
 	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
 }
 
 main h1 {
@@ -34,8 +40,12 @@ header nav li:hover {
 }
 
 /* -------- Videos Page ------- */
-.flex-container {
-	padding: 80px 0;
+.titulo-videos {
+	text-align: center;
+	padding: 20px 0;
+}
+.videos-flex-container {
+	padding: 40px 0;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -51,6 +61,12 @@ header nav li:hover {
 	padding: 10px;
 	margin-bottom: 10px;
 	text-align: left;
+	border-bottom: 1px solid grey;
+}
+
+main p {
+	font-size: 20px;
+	margin-top: 10px;
 }
 
 .video-card p {
@@ -59,7 +75,7 @@ header nav li:hover {
 
 /* Page images */
 
-.article-page-container {
+.articles-flex-container {
 	max-width: 1200px;
 	margin: auto;
 	padding: 40px 0;
@@ -98,4 +114,18 @@ header nav li:hover {
 	background-color: black;
 	color: white;
 	padding: 10px;
+}
+
+/* ---- Gallery Page ---- */
+
+.gallery-flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 30px 0;
+	justify-content: center;
+	gap: 20px;
+}
+
+.img-card img {
+	max-width: 350px;
 }
