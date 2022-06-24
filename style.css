@@ -5,6 +5,12 @@
 	padding: 0;
 }
 
+main h1 {
+	text-align: center;
+	background-color: coral;
+	padding: 4px;
+}
+
 /* ----- HEADER ------ */
 
 header {
@@ -50,4 +56,47 @@ header nav li:hover {
 
 .video-card p {
 	margin-top: 5px;
+}
+
+/* Page images */
+
+.article-page-container {
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.main-image {
+	margin-right: 100px;
+}
+
+.main-image img {
+	width: 340px;
+}
+
+.secondary-images div {
+	margin-bottom: 20px;
+}
+
+.secondary-images img {
+	width: 200px;
+}
+
+.article-card {
+	border: 1px solid grey;
+	display: flex;
+	flex-direction: column;
+}
+
+.article-card img {
+	align-self: center;
+	padding: 10px;
+}
+
+.article-card p {
+	background-color: black;
+	color: white;
+	padding: 10px;
 }
